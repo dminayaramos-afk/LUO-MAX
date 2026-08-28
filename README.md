@@ -153,18 +153,4 @@ originales del sistema (no deja el equipo "enganchado" a rendimiento máximo).
 | `install-service`         | Instala como servicio systemd persistente |
 | `uninstall-service`       | Quita el servicio y restaura el sistema |
 
-## Nota sobre tu equipo (Asus X550LC, i7-4500U, Optimus, MX Linux)
 
-- El "overclock" real de CPU (subir el multiplicador más allá de fábrica)
-  no es posible por software en un portátil con BIOS de fabricante bloqueada
-  — lo que hace este script es **exprimir el 100% del rendimiento que Intel
-  ya permite** (Turbo Boost, sin límites artificiales de gobernador de
-  energía), que es lo máximo realista y seguro en este hardware.
-- Con Optimus (Intel + NVIDIA GT6xx/7xx/8xx), si usas la NVIDIA solo para
-  Roblox/Sober vía `prime-run` o similar, el ajuste de GPU Intel es el que
-  más notarás en el día a día; el de NVIDIA se aplicará igual cuando la
-  dedicada esté activa.
-- Recomendación honesta: en un portátil de esta antigüedad, deja el modo
-  `--extreme` desactivado salvo que necesites el máximo rendimiento un rato
-  puntual — el modo normal ya activa Turbo Boost al 100% y solo evita que
-  el CPU se quede "perezoso" en frecuencias bajas.
