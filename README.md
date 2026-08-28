@@ -1,6 +1,6 @@
 # LUO-MAX — Linux Universal Optimizer (modo Turbo/Overclock)
 
-Versión de **archivo único** de tu proyecto `linux-uniopti`, inspirada en el
+Versión de **archivo único** de mi proyecto `linux-uniopti`, inspirada en el
 funcionamiento de [GameMode](https://github.com/FeralInteractive/gamemode):
 en vez de activar el máximo rendimiento solo mientras corre un juego, lo
 mantiene **siempre activo**, adaptado al hardware que detecte, y de forma
