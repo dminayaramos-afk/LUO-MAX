@@ -119,8 +119,7 @@ journalctl -u luo-max -f
 ```
 
 Modo extremo (bloquea siempre la CPU a máxima frecuencia — más rendimiento
-constante pero más calor y batería; en un i7-4500U de 2014 úsalo con
-cuidado, sobre todo si el portátil está sobre las piernas o mal ventilado):
+constante .
 
 ```bash
 sudo luo-max install-service --extreme
