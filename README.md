@@ -75,8 +75,7 @@ hardware.
   demonio corre.
 - Si la temperatura supera el límite (85°C por defecto), baja
   automáticamente a `powersave`/Turbo apagado hasta que se enfríe (75°C),
-  y luego vuelve solo al modo turbo. Así evitas que un i7-4500U con años
-  de uso y pasta térmica desgastada se sobrecaliente.
+  y luego vuelve solo al modo turbo. 
 
 **Backup/Restore**
 - Antes de tocar nada, guarda el estado original en
