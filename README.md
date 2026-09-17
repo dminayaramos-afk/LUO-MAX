@@ -39,8 +39,6 @@ hardware.
 
 **CPU**
 - Pone el *governor* de todos los núcleos en `performance`.
-- Si es Intel (como tu i7-4500U): activa Turbo Boost (`no_turbo=0`) y sube
-  `max_perf_pct` al 100%.
 - Si el kernel expone `cpufreq/boost` (AMD/genérico): lo activa.
 - Sube `scaling_max_freq` al máximo físico que soporta cada núcleo.
 - Si tienes `cpupower` o `x86_energy_perf_policy` instalados, ajusta también
